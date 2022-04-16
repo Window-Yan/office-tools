@@ -1,5 +1,14 @@
+# IDE
+.idea/
+*.iml
+
+*.MF
+
 # Compiled class file
 *.class
+out/
+target/
+output-*
 
 # Log file
 *.log
