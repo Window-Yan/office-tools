@@ -7,7 +7,7 @@ import com.window.DocType;
 import com.window.FileUtils;
 
 /**
- * @author Lenovocloud
+ * @author window
  */
 public class DocUtils {
 

@@ -116,10 +116,8 @@ public class OoxmlUtils {
 
     public static void main(String[] args) {
         String password = "123456";
-//        String filepath = FileUtils.getFilepath(prefix, "docx.docx")";
-//        String filepath = "C:\\Users\\Lenovocloud\\Desktop\\超50M大文件.xlsx";
-        String filepath = "C:\\Users\\Lenovocloud\\Desktop\\测试数据\\大文件\\47.1M word.docx";
-//        String filepath = "C:\\Users\\Lenovocloud\\Desktop\\sheet1.xls";
+        String prefix = "files" + File.separator + "encrypt_files";
+        String filepath = FileUtils.getFilepath(prefix, "docx.docx");
 
 //        decrypt(filepath, password);
         encrypt(filepath, password);
